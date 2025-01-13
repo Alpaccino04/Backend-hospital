@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hospital-backend-config
+data:
+  DB_HOST: "storage2.mysql.database.azure.com"
+  DB_PORT: "3306"
+  DB_NAME: "code"
+
+
